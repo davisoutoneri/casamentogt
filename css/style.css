@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Satisfy", cursive;
+  font-size: 20px;
+}
+
+.container00 {
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.timer-div {
+  padding-top: 650px;
+}
+.timer-div p {
+  font-size: 25px;
+}
+
+.local-description {
+  padding-top: 450px;
+}
+
+.container-localizacao {
+  color: white;
+  background: url("../../assets/images/restaurante/gustto-local.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.container-sua-conta {
+  color: white;
+  background: url("../../assets/images/restaurante/gustto-food.jpg") center no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
