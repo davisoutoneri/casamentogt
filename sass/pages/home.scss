@@ -1,11 +1,11 @@
-.buttonLocal{
-  
+.caroulselPhotos{
+  width: 400px;
 }
 
 .timer-div{
-  padding-top: 600px;
-
+  padding-top: 50px;
   p{
+    font-family: Erika Type, sans-serif;
     font-size: 25px;
   }
 }
@@ -52,4 +52,14 @@
 
 .arrowDown{
   width: 100px;
+}
+
+.footer{
+  background-color: black;
+  height: 120px;
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(50, 50, 50);
+  }
 }

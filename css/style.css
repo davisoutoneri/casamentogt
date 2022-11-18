@@ -22,19 +22,27 @@
   font-size: 20px;
 }
 
+body {
+  background-color: black;
+}
+
 .container00 {
   background: url("../assets/images/background/TEXTURA-E-ESTAMOA.jpg") center no-repeat;
   min-height: 100vh;
-  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.caroulselPhotos {
+  width: 400px;
+}
+
 .timer-div {
-  padding-top: 600px;
+  padding-top: 50px;
 }
 .timer-div p {
+  font-family: Erika Type, sans-serif;
   font-size: 25px;
 }
 
@@ -80,6 +88,16 @@
 
 .arrowDown {
   width: 100px;
+}
+
+.footer {
+  background-color: black;
+  height: 120px;
+}
+.footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(50, 50, 50);
 }
 
 /*# sourceMappingURL=style.css.map */
