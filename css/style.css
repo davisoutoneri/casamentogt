@@ -23,7 +23,10 @@
 }
 
 body {
-  background-color: black;
+  background-image: url("../assets/images/restaurante/gustto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container00 {
@@ -74,6 +77,11 @@ body {
 .font-food-title {
   font-family: Erika Type Bold, sans-serif;
   font-size: 25px;
+}
+
+.font-opcional-menu-alert {
+  font-family: Erika Type Bold, sans-serif;
+  font-size: 15px;
 }
 
 .font-text {
