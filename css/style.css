@@ -1,3 +1,19 @@
+@font-face {
+  font-family: Shorelines Script;
+  src: url("../assets/fonts/menu/Shorelines Script Bold.otf");
+}
+@font-face {
+  font-family: Erika Type;
+  src: url("../assets/fonts/texto/Erika-Type_OFICIAL.ttf");
+}
+@font-face {
+  font-family: Erika Type Bold;
+  src: url("../assets/fonts/texto/Erika Type_BNegrito.ttf");
+}
+@font-face {
+  font-family: Stella;
+  src: url("../assets/fonts/titulo/Stella.ttf");
+}
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +23,7 @@
 }
 
 .container00 {
+  background: url("../assets/images/background/TEXTURA-E-ESTAMOA.jpg") center no-repeat;
   min-height: 100vh;
   width: 100%;
   background-size: cover;
@@ -15,7 +32,7 @@
 }
 
 .timer-div {
-  padding-top: 650px;
+  padding-top: 600px;
 }
 .timer-div p {
   font-size: 25px;
@@ -35,6 +52,34 @@
   color: white;
   background: url("../assets/images/restaurante/gustto-food.jpg") center no-repeat;
   background-size: cover;
+}
+
+.font-menu {
+  font-family: Shorelines Script, sans-serif;
+  font-size: 50px;
+}
+
+.font-title {
+  font-family: Stella, sans-serif;
+}
+
+.font-food-title {
+  font-family: Erika Type Bold, sans-serif;
+  font-size: 25px;
+}
+
+.font-text {
+  font-family: Erika Type, sans-serif;
+  font-size: 16px;
+}
+
+.casamento-logo-header {
+  width: 80px;
+  height: 100%;
+}
+
+.arrowDown {
+  width: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
